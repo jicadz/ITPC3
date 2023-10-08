@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #323660;
+}
+
+/* CONTAINER */
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    background-color: #fcce22;
+    height: 15vh;
+    text-align: center;
+    width: 100%;
+}
+
+.heading p {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.name {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 2.2rem;
+    position: relative;
+}
+
+.fa-arrow-left {
+    top: 55%;
+    left: -40%;
+}
+
+/* BANNER */
+
+.banner {
+    width: 90%;
+    height: 60px;
+    background-color: #fcce22;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.banner p {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.scrollable {
+    width: 90%;
+    height: 68vh;
+    background-color: #e4e4e4;
+    margin-top: 20px;
+    overflow: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 90%;
+    height: 300px;
+    background-color: white;
+    margin: 20px 0;
+    overflow: auto;
+    margin-left: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+.notice {
+    width: 50%;
+    height: 25px;
+    background-color: #fcce22;
+    border-radius: 15px;
+}
+
+.notice p {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.box div {
+    margin: 10px 0;
+}
+
+.emergency p {
+    color: red;
+}
+
+.fire-safety {
+    width: 60%;
+    height: 25px;
+    background-color: #fcce22;
+    border-radius: 15px;
+}
+
+.fire-safety p {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.fire-safety-tips {
+    text-align: start;
+    padding: 0 10px;
+}
+
+.image img {
+    padding-top: 25px;
+    width: 100%;
+}
