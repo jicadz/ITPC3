@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #323660;
+}
+
+/* HEADING */
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    background-color: #fcce22;
+    height: 15vh;
+    text-align: center;
+    width: 100%;
+}
+
+.heading p {
+    margin-top: 33px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.name {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 2.2rem;
+    position: relative;
+}
+
+.fa-arrow-left {
+    top: 55%;
+    left: -40%;
+}
+
+/* TOTAL PAYABLE */
+
+.total-payable {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #323660;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.circle p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* TRANSACTIONS */
+
+.transactions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 1rem 0;
+}
+
+.pay-info {
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.bills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 50vh;
+    background-color: #E5E9EC;
+    border-radius: 15px;
+    border: 2px solid #323660;
+    overflow: auto;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    padding: 10px 0;
+    border: 1px solid #323660;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    width: 70px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.pay {
+    background-color: #64E544;
+}
