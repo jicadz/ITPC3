@@ -18,15 +18,15 @@
 
 .heading {
     background-color: #fcce22;
-    height: 15vh;
+    height: 106px;
     text-align: center;
     width: 100%;
 }
 
 .heading p {
-    margin-top: 33px;
+    margin-top: 25px;
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .name {
@@ -95,7 +95,6 @@ h3 {
     height: 50vh;
     background-color: #E5E9EC;
     border-radius: 15px;
-    border: 2px solid #323660;
     overflow: auto;
     gap: 2rem;
     padding: 1rem 0;
