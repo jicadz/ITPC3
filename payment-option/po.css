@@ -18,16 +18,16 @@
 
 .heading {
     background-color: #fcce22;
-    height: 15vh;
+    height: 13vh;
     text-align: center;
     width: 100%;
 }
 
 .heading p {
-    margin-top: 33px;
+    margin-top: 28px;
     margin-left: 20px;
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
 .name {
