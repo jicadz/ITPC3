@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #323660;
+}
+
+/* HEAD */
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcce22;
+}
+
+.heading {
+    background-color: #fcce22;
+    height: 13vh;
+    text-align: center;
+    width: 100%;
+}
+
+.heading p {
+    margin-top: 28px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.name {
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* CONTENT */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 {
+    margin-top: 2rem;
+}
+
+.box1 p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.box2 {
+    margin-top: 5rem;
+}
+
+.amount {
+    width: 60%;
+    border-bottom: 2px solid #323660;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.ref {
+    text-align: center;
+}
+
+.ref p {
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.continue-btn {
+    margin-top: 4rem;
+    width: 55%;
+    height: 50px;
+    background-color: #323660;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}

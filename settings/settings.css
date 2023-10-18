@@ -62,9 +62,10 @@
 
 .circle {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: .8fr .8fr .8fr;
+    place-items: center;
+    text-align: center;
     margin: 15px 0;
 }
 
