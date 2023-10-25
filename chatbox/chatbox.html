@@ -16,30 +16,22 @@
             <i class="fa-solid fa-arrow-left" onclick="window.location.href='/home/home.html'"></i>
         </div>
 
-        <div class="chatbox">
-            
-            <div class="bot-chat">
-
-                <div class="bot-image profile">
-                    <img src="/assets/bot.png" alt="">
-                </div>
-
-                <div class="triangle"></div>
-
-                <div class="chat">
-
-                </div>
-
-            </div>
-            
-        </div>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="bot-image"><img src="/assets/bot.png" alt=""></span>
+                <p>Hi there! <br> How can I help you today?</p>
+            </li>
+            <!-- <li class="chat outgoing">
+                <p>Lorem ipsum dolor sit amet amet doum</p>
+            </li> -->
+        </ul>
 
         <div class="type-message">
             <div class="clip" onclick="openFileExplorer()">
                 <img src="/assets/attach-file.png" alt="">
             </div>
 
-            <input type="text" placeholder="Type Message" id="textField">
+            <input type="text" placeholder="Type Message..." id="textField">
 
             <div class="send">
                 <img src="/assets/send.png" alt="">
@@ -48,6 +40,6 @@
 
     </div>
     
-    <script src="chatbox.js"></script>
+    <script src="chatbox.js" defer></script>
 </body>
 </html>
