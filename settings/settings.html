@@ -10,7 +10,7 @@
     <title>Settings</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <div class="heading" id="head">
             <i class="fa-solid fa-arrow-left" onclick="window.location.href='/home/home.html'"></i>
             <p>SETTINGS</p>
@@ -45,7 +45,15 @@
         </div>
         <div class="buttons" id="buttons">
             <button id="account-recovery" onclick="window.location.href='/account-recovery/account-re.html'">ACCOUNT RECOVERY</button>
-            <button id="log-out" onclick="window.location.href='/login/login.html'">LOG OUT</button>
+            <button id="log-out" onclick="toggleS()">LOG OUT</button>
+        </div>
+    </div>
+
+    <div class="confirm-logout" id="confirm-logout">
+        <p>Are you sure to Logout?</p>
+        <div class="confirm-logout-buttons">
+            <button id="btnYes" onclick="window.location.href='/login/login.html'">Yes</button>
+            <button id="btnNo" onclick="toggleH()">No</button>
         </div>
     </div>
 

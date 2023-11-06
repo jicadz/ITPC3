@@ -178,3 +178,53 @@ input:checked + .slider:before {
     border: none;
 }
 
+/* CONFIRM LOGOUT */
+
+.confirm-logout {
+    width: 80%;
+    height: 200px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    box-shadow: 0 0 15px black;
+    gap: 2rem;
+    position: absolute;
+    top: 30%;
+    margin: 10%;
+    display: none;
+    border-radius: 15px;
+}
+
+.confirm-logout p {
+    padding: 2rem 0;
+    font-weight: 800;
+}
+
+.confirm-logout button {
+    width: 40%;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.confirm-logout-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btnYes {
+    background-color: #323660;
+    color: white;
+}
+
+#btnNo {
+    background-color: #e4e4e4;
+    color: #323660;
+}
+

@@ -48,3 +48,16 @@ function darkMode() {
     }
 }
 
+const confirmLogout = document.getElementById("confirm-logout");
+const container = document.getElementById("container");
+
+function toggleS() {
+    confirmLogout.style.display="flex";
+    container.style.opacity="0.2";
+}
+
+function toggleH() {
+    confirmLogout.style.display="none";
+    container.style.opacity="1";
+}
+
